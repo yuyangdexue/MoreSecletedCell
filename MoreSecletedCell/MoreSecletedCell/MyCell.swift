@@ -18,12 +18,13 @@ class MyCell: UICollectionViewCell {
     override  init(frame: CGRect) {
         super.init(frame: frame)
         pSetup()
-        isRed = true
+       
         
     }
     
     private func pSetup(){
         self.backgroundColor = UIColor.redColor()
+        isRed = true
     }
     
     func   changeColor(){
